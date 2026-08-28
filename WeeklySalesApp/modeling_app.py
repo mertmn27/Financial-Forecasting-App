@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 from mrmr import mrmr_classif
-from mrmr importasd mrmr_regression
+from mrmr import mrmr_regression
 
 from sklearn.metrics import (
     mean_absolute_error,
