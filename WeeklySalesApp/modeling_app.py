@@ -20,7 +20,7 @@ def create_date_features(df, date_column):
     df = df.copy()
 
     if date_column not in df.columns:
-        return df
+        return 
 
     df[date_column] = pd.to_datetime(
         df[date_column],
